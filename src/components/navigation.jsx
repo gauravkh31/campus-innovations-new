@@ -1,4 +1,5 @@
 import React from "react";
+import SplitButton from "./SplitButton";
 
 export const Navigation = (props) => {
   return (
@@ -58,10 +59,13 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href="#contact" className="page-scroll">
-                Contact
+              <a className="page-scroll">
+                <SplitButton/>
               </a>
             </li>
+            {/* <li>
+              <SplitButton/>
+            </li> */}
           </ul>
         </div>
       </div>
