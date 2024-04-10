@@ -68,33 +68,33 @@
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Premium Industry Subscriptions",
+      "text": "Industries can opt for premium subscriptions to post problem statements and access our big data pool of student solutions."
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Collaboration Facilitation",
+      "text": "Individuals can collaborate with other projects and innovations by providing contact details, fostering partnerships and knowledge exchange."
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Data Pool Access for Govt. Agencies",
+      "text": "Government agencies such as NAAC and NBA can access the projects data pool for tracking and monitoring the performance of colleges and universities."
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Real-Time Industry Challenges",
+      "text": "Industries can upload real-time problems faced by them, allowing students to address industry challenges and gain practical experience."
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Discussion Forums and Networking",
+      "text": "Facilitate discussion forums and social networking among students, professors, and university stakeholders for knowledge sharing and collaboration."
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Mentorship and Evaluation",
+      "text": "Professors and peers can provide feedback and evaluations on project progress and outcomes, fostering mentorship and academic growth."
     }
   ],
   "Testimonials": [
@@ -150,6 +150,8 @@
       "name": "Karen Doe",
       "job": "Project Manager"
     }
+    
+    
   ],
   "Contact": {
     "address": "4321 California St, San Francisco, CA 12345 ",
@@ -162,23 +164,23 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Bhavesh",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Comprehensive Project Repository",
+      "text": "Our platform serves as a dynamic ecosystem connecting students, universities, and industries, facilitating collaboration and real-world problem-solving."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Gaurav",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Industry-Driven Problem Statements",
+      "text": "Industries can post real-time problem statements, providing students with opportunities to tackle practical challenges and enhance their problem-solving skills."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Cross-Institutional Collaborations",
+      "text": "Facilitate collaborations between institutions, promoting knowledge exchange and cross-functional research initiatives for enhanced academic outcomes."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": " Market Access for Innovations",
+      "text": "Campus Innovations provides a platform to showcase student innovations, bridging the gap between academia and industry, and facilitating market access for innovative products."
     }
   ]
 }
