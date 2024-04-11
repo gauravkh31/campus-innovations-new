@@ -67,32 +67,32 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
+      "icon": "fa fa-usd",
       "name": "Premium Industry Subscriptions",
       "text": "Industries can opt for premium subscriptions to post problem statements and access our big data pool of student solutions."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
+      "icon": "fa fa-users",
       "name": "Collaboration Facilitation",
       "text": "Individuals can collaborate with other projects and innovations by providing contact details, fostering partnerships and knowledge exchange."
     },
     {
-      "icon": "fa fa-cloud-download",
+      "icon": "fa fa-database",
       "name": "Data Pool Access for Govt. Agencies",
       "text": "Government agencies such as NAAC and NBA can access the projects data pool for tracking and monitoring the performance of colleges and universities."
     },
     {
-      "icon": "fa fa-language",
+      "icon": "fa fa-tasks",
       "name": "Real-Time Industry Challenges",
       "text": "Industries can upload real-time problems faced by them, allowing students to address industry challenges and gain practical experience."
     },
     {
-      "icon": "fa fa-plane",
+      "icon": "fa fa-comments",
       "name": "Discussion Forums and Networking",
       "text": "Facilitate discussion forums and social networking among students, professors, and university stakeholders for knowledge sharing and collaboration."
     },
     {
-      "icon": "fa fa-pie-chart",
+      "icon": "fa fa-graduation-cap",
       "name": "Mentorship and Evaluation",
       "text": "Professors and peers can provide feedback and evaluations on project progress and outcomes, fostering mentorship and academic growth."
     }
@@ -100,32 +100,32 @@
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "text": "\"As a university administrator, I see immense value in Campus Innovations. It not only promotes collaboration between students, universities, and industries but also provides a platform for real-world problem-solving.\"",
       "name": "John Deverasm"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "text": "\"As a student, Campus Innovations sounds like a game-changer. The opportunity to work on real-world challenges from industries, gain mentorship, and potentially secure recruitment or investment is invaluable. I can't wait to explore the platform and enhance my skills.\"",
       "name": "Johnathan Doe"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "text": "\"As an industry professional, I'm excited about the potential of Campus Innovations. It offers a unique avenue to connect with talented students, tap into their innovative ideas, and address our real-time problem statements. The revenue generation model seems fair and mutually beneficial.\"",
       "name": "John Doe"
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "text": "\"As an individual with innovative ideas, Campus Innovations provides a promising opportunity to showcase and collaborate on my projects. The verification process ensures authenticity, and the potential rewards serve as motivation to contribute to the platform.\"",
       "name": "Johnathan Doe"
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "text": "\"As a potential investor, Campus Innovations seems like a promising investment opportunity. The platform's focus on bridging the gap between academia and industry, coupled with its revenue generation model, indicates sustainability and growth potential.\"",
       "name": "John Doe"
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "text": "\"As a prospective user, I'm impressed by the comprehensive approach of Campus Innovations. It addresses the needs of students, universities, industries, and individuals alike, fostering a dynamic ecosystem for innovation and collaboration. The user-friendly interface and personalized dashboard add to its appeal.\"",
       "name": "Johnathan Doe"
     }
   ],
@@ -163,12 +163,12 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
+      "icon": "fa fa-folder-open",
       "title": "Comprehensive Project Repository",
       "text": "Our platform serves as a dynamic ecosystem connecting students, universities, and industries, facilitating collaboration and real-world problem-solving."
     },
     {
-      "icon": "fa fa-bullhorn",
+      "icon": "fa fa-cogs",
       "title": "Industry-Driven Problem Statements",
       "text": "Industries can post real-time problem statements, providing students with opportunities to tackle practical challenges and enhance their problem-solving skills."
     },
@@ -178,7 +178,7 @@
       "text": "Facilitate collaborations between institutions, promoting knowledge exchange and cross-functional research initiatives for enhanced academic outcomes."
     },
     {
-      "icon": "fa fa-magic",
+      "icon": "fa fa-line-chart",
       "title": " Market Access for Innovations",
       "text": "Campus Innovations provides a platform to showcase student innovations, bridging the gap between academia and industry, and facilitating market access for innovative products."
     }
