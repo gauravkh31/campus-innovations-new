@@ -64,9 +64,9 @@ export default function SignIn() {
               required
               fullWidth
               id="email"
-              label="Email Address"
-              name="email"
-              autoComplete="email"
+              label="UGC ID"
+              // name="email"
+              // autoComplete="email"
               autoFocus
             />
             <TextField
@@ -96,12 +96,13 @@ export default function SignIn() {
                 <Link href="#" variant="body2">
                   Forgot password?
                 </Link>
+                
               </Grid>
-              <Grid item>
-                {/* <Link href="#" variant="body2">
+              {/* <Grid item>
+                <Link href="#" variant="body2">
                   {"Don't have an account? Sign Up"}
-                </Link> */}
-              </Grid>
+                </Link>
+              </Grid> */}
             </Grid>
           </Box>
         </Box>
