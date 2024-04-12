@@ -13,7 +13,7 @@ import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import "./extra.css";
-import SignIn from "./components/SignIn";
+// import SignIn from "./components/SignIn";
 import SplitButton from "./components/SplitButton";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {

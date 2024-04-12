@@ -8,9 +8,9 @@ import Paper from '@mui/material/Paper';
 import Popper from '@mui/material/Popper';
 import MenuItem from '@mui/material/MenuItem';
 import MenuList from '@mui/material/MenuList';
-import LoginStudent from './LoginStudent'; // Import the component for Login as Student
-import LoginCollege from './LoginCollege'; // Import the component for Login as College
-import LoginCompany from './LoginCompany'; // Import the component for Login as Company
+import LoginStudent from './threesignin/LoginStudent.jsx'; // Import the component for Login as Student
+import LoginCollege from './threesignin/LoginCollege.jsx'; // Import the component for Login as College
+import LoginCompany from './threesignin/LoginCompany.jsx'; // Import the component for Login as Company
 
 const options = ['Login as Student', 'Login as College', 'Login as Company'];
 
