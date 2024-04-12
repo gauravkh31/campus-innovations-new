@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Button } from "@mui/material";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
@@ -11,6 +12,7 @@ import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+import "./extra.css";
 import SignIn from "./components/SignIn";
 import SplitButton from "./components/SplitButton";
 
@@ -29,6 +31,7 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
+      <div  className="explore_button"><Button variant="contained" size="large">Explore Projects</Button></div>
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
@@ -36,7 +39,7 @@ const App = () => {
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
-      {/* <SignIn/> */}
+      
       
 
 

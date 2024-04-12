@@ -59,9 +59,9 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a className="page-scroll">
+              {/* <a className="page-scroll"> */}
                 <SplitButton/>
-              </a>
+              {/* </a> */}
             </li>
             {/* <li>
               <SplitButton/>

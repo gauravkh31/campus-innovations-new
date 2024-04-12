@@ -26,11 +26,9 @@ function Copyright(props) {
   );
 }
 
-// TODO remove, this demo shouldn't need to reset the theme.
-
 const defaultTheme = createTheme();
 
-export default function SignIn() {
+export default function SignIn({ role }) {
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
@@ -39,6 +37,15 @@ export default function SignIn() {
       password: data.get('password'),
     });
   };
+
+  let signInText = '';
+  if (role === 'student') {
+    signInText = 'Sign in as Student';
+  } else if (role === 'college') {
+    signInText = 'Sign in as College';
+  } else if (role === 'company') {
+    signInText = 'Sign in as Company';
+  }
 
   return (
     <ThemeProvider theme={defaultTheme}>
@@ -56,7 +63,7 @@ export default function SignIn() {
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
-            Sign in as Student
+            {signInText}
           </Typography>
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
             <TextField
@@ -89,7 +96,7 @@ export default function SignIn() {
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
             >
-              Sign In as Student
+              {signInText}
             </Button>
             <Grid container>
               <Grid item xs>
