@@ -1,4 +1,8 @@
 import * as React from 'react';
+import { useState } from 'react';
+import {app} from "/workspaces/campus-innovations-new/firebase.js";
+import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
+
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -12,6 +16,9 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+
+
+const auth = getAuth(app);
 
 function Copyright(props) {
   return (
@@ -30,7 +37,15 @@ function Copyright(props) {
 
 const defaultTheme = createTheme();
 
-export default function SignUp() {
+export default function SignUpCompany() {
+
+
+  const [email, setEmail ] = useState("");
+  const[password, setPassword ] = useState("");
+
+  const createUser = () => {
+    createUserWithEmailAndPassword
+  }
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
