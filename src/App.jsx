@@ -15,7 +15,7 @@ import "./App.css";
 import "./extra.css";
 import SignUpCompany from '/workspaces/campus-innovations-new/src/components/twosignup/SignUpCompany.jsx'
 import SignUpStudent from '/workspaces/campus-innovations-new/src/components/twosignup/SignUpStudent.jsx'
-// import SignInCompany from "./components/threesignin/LoginCompany";
+import SignInCompany from "./components/threesignin/LoginCompany";
 // import SignIn from "./components/SignIn";
 import SplitButton from "./components/SplitButton";
 
@@ -44,6 +44,7 @@ const App = () => {
       <Contact data={landingPageData.Contact} />d
       <SignUpCompany/>
       <SignUpStudent/>
+      <SignInCompany/>
       
 
 
