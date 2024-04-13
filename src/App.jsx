@@ -14,6 +14,7 @@ import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import "./extra.css";
 import SignUpCompany from '/workspaces/campus-innovations-new/src/components/twosignup/SignUpCompany.jsx'
+import SignUpStudent from '/workspaces/campus-innovations-new/src/components/twosignup/SignUpStudent.jsx'
 // import SignIn from "./components/SignIn";
 import SplitButton from "./components/SplitButton";
 
@@ -41,7 +42,7 @@ const App = () => {
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />d
       <SignUpCompany/>
-      
+      <SignUpStudent/>
       
 
 
