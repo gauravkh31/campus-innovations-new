@@ -24,13 +24,24 @@ export const Team = (props) => {
     </div>
   ))}
   {/* Rendering the additional blocks or placeholders */}
-  {Array.from({ length: 2 }).map((_, i) => (
+  {Array.from({ length: 1 }).map((_, i) => (
     <div key={`placeholder-${i}`} className="col-lg-6 col-md-6 col-sm-6 team">
       <div className="thumbnail">
-        <img src="placeholder_image_url" alt="..." className="team-img" />
+        <img src="/img/team/gauravp.jpg" alt="..." className="team-img" />
         <div className="caption">
-          <h4>Placeholder Name</h4>
-          <p>Placeholder Job</p>
+          <h4>Gaurav Khandelwal</h4>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  ))}
+   {Array.from({ length: 1 }).map((_, i) => (
+    <div key={`placeholder-${i}`} className="col-lg-6 col-md-6 col-sm-6 team">
+      <div className="thumbnail">
+        <img src="/img/team/jagratip.jpg" alt="..." className="team-img" />
+        <div className="caption">
+          <h4>Jagrati Pareek</h4>
+          <p></p>
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@
     "paragraph": ""
   },
   "About": {
-    "paragraph": "Welcome to Campus Innovations, your ultimate destination for academic project solutions! At Campus Innovations, we understand the pivotal role that final year projects play in the academic journey of students. Our platform serves as a comprehensive repository showcasing a wide variety of projects undertaken by students nationwide, providing a platform for knowledge exchange and inspiration. Our mission is clear: to elevate the quality and awareness of student projects across the country. By offering a diverse range of projects and ideas, we aim to foster innovation and creativity within academic communities. Whether you're a student seeking inspiration for your own project or an educator looking to showcase exemplary work, Campus Innovations is here to support you every step of the way.Join us in our endeavor to celebrate and elevate student innovation. Explore, engage, and be inspired at Campus Innovations – where academic excellence meets limitless possibilities.",
+    "paragraph": "Welcome to Campus Innovations, your ultimate destination for academic project solutions! At Campus Innovations, we understand the pivotal role that final year projects play in the academic journey of students. By offering a diverse range of projects and ideas, we aim to foster innovation and creativity within academic communities. Whether you're a student seeking inspiration for your own project or an educator looking to showcase exemplary work, Campus Innovations is here to support you every step of the way.",
     "Why": [
       "Comprehensive Repository",
       "Knowledge Exchange",
@@ -131,19 +131,19 @@
   ],
   "Team": [
     {
-      "img": "img/team/gauravkhandelwal.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/team/himanshuppp.jpg",
+      "name": "Himanshu Saini",
+      "job": ""
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/team/gargip.jpg",
+      "name": "Gargi Gupta",
+      "job": ""
     },
     {
-      "img": "img/team/gauravkhandelwal.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "img/team/bhaveshp.jpg",
+      "name": "Bhavesh Lalwani",
+      "job": ""
     },
     {
       "img": "img/team/gauravkhandelwal.jpg",
@@ -154,9 +154,9 @@
     
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
+    "address": "Jaipur Rajasthan ",
     "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "email": "campusinnovations@company.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
