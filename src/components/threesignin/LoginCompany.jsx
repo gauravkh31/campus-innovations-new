@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useState } from 'react';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -12,6 +13,9 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
+import {app} from "../../firebase.js";
+
 
 function Copyright(props) {
   return (
@@ -30,15 +34,27 @@ function Copyright(props) {
 
 const defaultTheme = createTheme();
 
-export default function SignIn() {
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    console.log({
-      email: data.get('email'),
-      password: data.get('password'),
-    });
-  };
+export default function SignInCompany() {
+
+
+
+  const [email, setEmail ] = useState("");
+  const[password, setPassword ] = useState("");
+
+
+  const signinUser = () => {
+    signInWithEmailAndPassword(auth, email, password).then(value => alert("Success") ).catch((err) => console.log(err))
+  }; 
+
+
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+  //   const data = new FormData(event.currentTarget);
+  //   console.log({
+  //     email: data.get('email'),
+  //     password: data.get('password'),
+  //   });
+  // };
 
   return (
     <ThemeProvider theme={defaultTheme}>
@@ -58,16 +74,20 @@ export default function SignIn() {
           <Typography component="h1" variant="h5">
             Sign in as Company
           </Typography>
-          <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
+          <Box component="form"  noValidate sx={{ mt: 1 }}>
             <TextField
               margin="normal"
               required
               fullWidth
-              id="email"
+              id="email3"
               label="Email Address"
               name="email"
               autoComplete="email"
               autoFocus
+              type='email'
+              placeholder='Enter your email here'
+              onChange={e=>setEmail(e.target.value)}
+              value={email}
             />
             <TextField
               margin="normal"
@@ -76,8 +96,11 @@ export default function SignIn() {
               name="password"
               label="Password"
               type="password"
-              id="password"
+              id="password3"
               autoComplete="current-password"
+              placeholder='Enter your password here'
+              onChange={e=>setPassword(e.target.value)}
+              value={password}
             />
             <FormControlLabel
               control={<Checkbox value="remember" color="primary" />}
@@ -87,6 +110,7 @@ export default function SignIn() {
               type="submit"
               fullWidth
               variant="contained"
+              onClick={signinUser}
               sx={{ mt: 3, mb: 2 }}
             >
               Sign In as Company
