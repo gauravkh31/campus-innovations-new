@@ -5,7 +5,7 @@ import { getAuth } from "firebase/auth";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
+ const firebaseConfig = {
   apiKey: "AIzaSyC5RadS8todtkT9X70cRUtHtbCeB8T7-24",
   authDomain: "campus-innovations.firebaseapp.com",
   databaseURL: "https://campus-innovations-default-rtdb.firebaseio.com",
@@ -16,5 +16,6 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+ export const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
+

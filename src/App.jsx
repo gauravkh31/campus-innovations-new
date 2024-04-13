@@ -13,6 +13,7 @@ import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import "./extra.css";
+import SignUpCompany from '/workspaces/campus-innovations-new/src/components/twosignup/SignUpCompany.jsx'
 // import SignIn from "./components/SignIn";
 import SplitButton from "./components/SplitButton";
 
@@ -38,7 +39,8 @@ const App = () => {
       <Gallery data={landingPageData.Gallery} />
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
+      <Contact data={landingPageData.Contact} />d
+      <SignUpCompany/>
       
       
 

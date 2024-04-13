@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useState } from 'react';
-import {app} from "/workspaces/campus-innovations-new/firebase.js";
+import {app} from "../../firebase.js";
 import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
 
 import Avatar from '@mui/material/Avatar';
@@ -75,7 +75,7 @@ export default function SignUpCompany() {
           <Typography component="h1" variant="h5">
             Sign up as Company
           </Typography>
-          <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
+          <Box component="form" noValidate  sx={{ mt: 3 }}>
             <Grid container spacing={2}>
               {/* <Grid item xs={12} sm={6}>
                 <TextField
@@ -103,7 +103,7 @@ export default function SignUpCompany() {
                 <TextField
                   required
                   fullWidth
-                  id="email"
+                  id="email1"
                   label="Email Address"
                   name="email"
                   autoComplete="email"
@@ -137,13 +137,15 @@ export default function SignUpCompany() {
               </Grid> */}
             </Grid>
             <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              sx={{ mt: 3, mb: 2 }}
-            >
-              Sign Up As Company
-            </Button>
+  type="button" // Change type to "button"
+  fullWidth
+  variant="contained"
+  sx={{ mt: 3, mb: 2 }}
+  onClick={createUser}
+>
+  Sign Up As Company
+</Button>
+
             <Grid container justifyContent="flex-end">
               <Grid item>
                 <Link href="#" variant="body2">
