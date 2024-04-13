@@ -16,6 +16,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { Alert } from '@mui/material';
 
 
 const auth = getAuth(app);
@@ -44,16 +45,17 @@ export default function SignUpCompany() {
   const[password, setPassword ] = useState("");
 
   const createUser = () => {
-    createUserWithEmailAndPassword
-  }
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    console.log({
-      email: data.get('email'),
-      password: data.get('password'),
-    });
+    createUserWithEmailAndPassword(auth, email, password).then(value => alert("Success") )
   };
+
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+  //   const data = new FormData(event.currentTarget);
+  //   console.log({
+  //     email: data.get('email'),
+  //     password: data.get('password'),
+  //   });
+  // };
 
   return (
     <ThemeProvider theme={defaultTheme}>
@@ -71,11 +73,11 @@ export default function SignUpCompany() {
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
-            Sign up
+            Sign up as Company
           </Typography>
           <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
             <Grid container spacing={2}>
-              <Grid item xs={12} sm={6}>
+              {/* <Grid item xs={12} sm={6}>
                 <TextField
                   autoComplete="given-name"
                   name="firstName"
@@ -83,10 +85,11 @@ export default function SignUpCompany() {
                   fullWidth
                   id="firstName"
                   label="First Name"
+                  placeholder='Email'
                   autoFocus
                 />
-              </Grid>
-              <Grid item xs={12} sm={6}>
+              </Grid> */}
+              {/* <Grid item xs={12} sm={6}>
                 <TextField
                   required
                   fullWidth
@@ -95,7 +98,7 @@ export default function SignUpCompany() {
                   name="lastName"
                   autoComplete="family-name"
                 />
-              </Grid>
+              </Grid> */}
               <Grid item xs={12}>
                 <TextField
                   required
@@ -104,6 +107,10 @@ export default function SignUpCompany() {
                   label="Email Address"
                   name="email"
                   autoComplete="email"
+                  placeholder='Enter your Email Address'
+                  value={email}
+                  type='email'
+                  onChange={ (e) => setEmail(e.target.value)}
                 />
               </Grid>
               <Grid item xs={12}>
@@ -115,14 +122,19 @@ export default function SignUpCompany() {
                   type="password"
                   id="password"
                   autoComplete="new-password"
+                  onChange={(e)=> setPassword(e.target.value)}
+                  value={password}
+                  placeholder='Enter your Password here'
+                  
+
                 />
               </Grid>
-              <Grid item xs={12}>
+              {/* <Grid item xs={12}>
                 <FormControlLabel
                   control={<Checkbox value="allowExtraEmails" color="primary" />}
                   label="I want to receive inspiration, marketing promotions and updates via email."
                 />
-              </Grid>
+              </Grid> */}
             </Grid>
             <Button
               type="submit"
