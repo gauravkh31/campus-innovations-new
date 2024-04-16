@@ -163,18 +163,18 @@
   },
   "Features": [
     {
-      "icon": "fa fa-folder-open",
-      "title": "Comprehensive Project Repository",
+      "icon": "fa-user",
+      "title": "User",
       "text": "Our platform serves as a dynamic ecosystem connecting students, universities, and industries, facilitating collaboration and real-world problem-solving."
     },
     {
-      "icon": "fa fa-cogs",
-      "title": "Industry-Driven Problem Statements",
+      "icon": "fa-university",
+      "title": "Colleges",
       "text": "Industries can post real-time problem statements, providing students with opportunities to tackle practical challenges and enhance their problem-solving skills."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Cross-Institutional Collaborations",
+      "icon": "fa-industry",
+      "title": "Company",
       "text": "Facilitate collaborations between institutions, promoting knowledge exchange and cross-functional research initiatives for enhanced academic outcomes."
     },
     {
