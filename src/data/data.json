@@ -163,24 +163,19 @@
   },
   "Features": [
     {
-      "icon": "fa-user",
+      "icon": "fa fa-user",
       "title": "User",
       "text": "Our platform serves as a dynamic ecosystem connecting students, universities, and industries, facilitating collaboration and real-world problem-solving."
     },
     {
-      "icon": "fa-university",
+      "icon": "fa fa-university",
       "title": "Colleges",
       "text": "Industries can post real-time problem statements, providing students with opportunities to tackle practical challenges and enhance their problem-solving skills."
     },
     {
-      "icon": "fa-industry",
+      "icon": "fa fa-industry",
       "title": "Company",
       "text": "Facilitate collaborations between institutions, promoting knowledge exchange and cross-functional research initiatives for enhanced academic outcomes."
-    },
-    {
-      "icon": "fa fa-line-chart",
-      "title": " Market Access for Innovations",
-      "text": "Campus Innovations provides a platform to showcase student innovations, bridging the gap between academia and industry, and facilitating market access for innovative products."
     }
   ]
 }
